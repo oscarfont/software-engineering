@@ -1,0 +1,52 @@
+Seminar 1:
+- Asunto mail incorrecto
+- En el ejercicio de clase: faltan stakeholders, no se ha detectado ningun punto oscuro ni se han definido los términos del glosario
+- Debería arrancar la web de un index.html que cuelgue de doc/
+- Faltan stakeholders importantes: sistemas de mensajeria, distribución, users, editor, layout designer,...
+- Faltan funcionalidades por describir en el glosario
+
+Seminar 2:
+- Documento final:
+   · Se debería tener un index.html que cuelgue de la carpeta doc/
+   · "Purchase a book": faltan support actors (mínimo paypal)
+   · "Validate uploaded work": faltan support actors (ej. autor)
+   · Implied stakeholders, faltan respecto la tarea 1 y aparte hay más
+   · Ejercicio 3 faltan primary actors y use cases, ej. administrador y cualquier use case con relación a la gestión
+   
+Seminar 3:
+- Debería haber un index.html en doc/
+- Falta el sistema de distribución
+
+Seminar 4:
+- En el final, no se dice la clase sobre la que trabaja el state-diagram
+- En el final, en la compra de un libro se deberían especificar las acitvidades para los métodos de pago.
+
+Seminar 5:
+- En el ejercicio de clase, no se le dá correctamente el nombre al Facade y sus relaciones con las clases son incorrectas. Hay clases en el diagrama que no son necesarias.
+- Debería haber un index.html que cuelgue de doc/
+- Designer y editor no son necesarias
+- MeltingPot debería gestionar la memoria de Author, Client y Collection como mínimo
+- Todos los métodos deben ser accesibles a través del Facade (así que faltan muchos métodos en esta clase)
+- Los atributos estan mal expresados (una forma correcta seria, Works: list< Work* > )
+- Faltan métodos de search, y hay algunos que deberían devolver alguna clase como Author*, Work*, ...
+
+Seminar 6:
+- LibreOfficeTools and OO_WarGeneration are two library files, in which you can not add / modify methods
+- Converter objects should manage the memory of "to-convert" objects 
+- You should send the commit of the final completed class diagram with the Adapter integrated
+
+Seminar 7:
+- Need a Subject type class to manage upcoming news that should be notified as thematic channels, as mentioned in the seminar
+- It is good to express the return types and attributes of all other methods as much as possible
+
+Seminar 8:
+- What does the Context class do? It's redundant. You can relate Client directly with the Strategy (Client can be the context)
+
+Seminar 9:
+- Specialization of the MCD and Fraction<int> are actually not required. Template is generic and when you instantiate to specific type, 
+it will behave according to that specific type. 
+
+Seminar 10:
+- In the View not only slots but the GUI components (like buttons, lables, text box etc..) should also be given
+- It's not clear how signal-slot mechanism is connecting the methods from one class to another
+

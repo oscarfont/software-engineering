@@ -1,0 +1,258 @@
+<html>
+
+<head>
+  <title>seminari2</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<body><body background="img/bg.png"></body>
+<div ALIGN=center><img src = "img/logo.png"></img><br>
+
+<ul id="button"><li><a href="javascript:history.back(-1);">Tornar a l'Índex!</a></li></ul><br>
+
+<div class="text"><div ALIGN=justified>
+	<br><img src = "img/s2.png"></img><hr>
+      <p> 
+<!--AQUÍ COMENÇA EL TEXT-->
+
+<!--TASCA 1-->
+<br><b><u>Task 1:</u></b> <i>Elaboration of two Use Cases.</i><br><br>
+    <blockquote>
+    <b> 1. PURCHASE A BOOK </b><br>
+	<br>
+	•<b> Use case: </b> Purchase a book. <br>
+	•<b> Contex: </b> A person wants to purchase a book from our webpage. <br>
+	<br>
+	•<b> Primary Actors: </b> Client. <br>
+	•<b> Support Actors: </b> None. <br>
+	<br>
+	•<b> Preconditions: </b><br>
+	<blockquote> - The user can communicate with the system. <br>
+	- The user has to be able to pay for the book with any of the ways we offer him to do it. <br></blockquote> 
+	•<b> Successful postconditions: </b><br>
+	<blockquote> - The user purchases the book successfully (which means, the book was in stock and the user could have paid for it). <br></blockquote> 
+	•<b> Unsuccessful postconditions: </b><br>
+	<blockquote> - There was not the book in stock. <br>
+	- There was any kind of error when the user attempted to pay for the book. <br></blockquote> 
+	•<b> Basic Flow: </b><br>
+	<blockquote> 1. The user looks for the book he wants. <br>
+	2. The user adds the book to the cart. <br>
+	3. The user asks whether he wants a physical copy or a digital one after the system asks him.<br>
+	4. The system offers the user ways to pay for the book and the user chooses one of them. <br>
+	5. The user confirms the purchase and pays for it. <br></blockquote> 
+	•<b> Extensions: </b><br>
+	<blockquote> 1a. The user does not have enough information to find the book. <br>
+	1a1. The user has an option to do an advanced search.<br>
+	1b. The user wants to buy a book that we do not have in the catalogue.<br>
+	1b1. Go to step one.<br>
+	2a. The user can choose how many copies he wants to add to the cart.<br>
+	2a1. Go to step 3.<br>
+	3a. If the user chooses a physical copy.<br>
+	3a1. Give the information to the system of where the user wants to pick up the book.<br></blockquote>
+	<br>
+	<b> 2. VALIDATE UPLOADED WORK </b><br>
+	<br>
+	•<b> Use case: </b> Validate uploaded book. <br>
+	•<b> Contex: </b> The editor wants to validate an uploaded work by an author. <br>
+	<br>
+	•<b> Primary Actors: </b> Editor. <br>
+	•<b> Support Actors: </b> None. <br>
+	<br>
+	•<b> Preconditions: </b><br>
+	<blockquote> - The editor can have access to the system. <br>
+	- The author has to have uploaded the work in the right format.<br></blockquote> 
+	•<b> Successful postconditions: </b><br>
+	<blockquote> - The editor validates the uploaded work, classifies the work and chooses whether to include the work in one of the editorial's collections <br></blockquote> 
+	•<b> Unsuccessful postconditions: </b><br>
+	<blockquote> - The editor could not validate the work because there was an error either in the work's format or the book's layout design. <br></blockquote> 
+	•<b> Basic Flow: </b><br>
+	<blockquote> 1. The editor looks for the work to validate. <br>
+	2. The system opens the work and offers the option to download it. <br>
+	3. The editor checks the work to decide to validate it or not.<br>
+	4. The editor decides to validate or not. Then he/she looks for the option to do so.<br>
+	5. The system asks the editor if he/she is sure he/she wants to validate the work or not.<br>
+	6. The editor looks for the options to classify the work in one collection. <br>
+	7. The system offers the editor all the categories to classify the work.<br>
+	8. The editor decides in which collection to classify the work.<br></blockquote> 
+	•<b>Extensions: </b><br>
+	<blockquote> 1a. The editor can not find the book.<br>
+	1a1. Go to step 1.<br>
+	2a. The editor downloads the work to check it on his PC.<br>
+	2a1. Follow with step 3.<br>
+	3a. The editor finds format errors.<br>
+	3a1. The editor informs the author.<br>
+	3b. The editor finds layout errors.<br>
+	3b1. The editor informs the Layour designer.<br>
+	7a. The editor can not find a category that fits the book.<br>
+	7a1. The editor includes the book in the category "Unclassifed".<br></blockquote>
+	</blockquote><br>
+
+<!--TASCA 2-->
+<b><u>Task 2:</u></b> <i>Implied stakeholders.</i><br>
+<br>Already described in task 1.<br><br>
+
+<!--TASCA 3-->
+<b><u>Task 3:</u></b> <i>The actors, the use cases and its relations.</i><br>
+	<blockquote>
+	•<b> Primary actors:</b> <i>Initiates the contact with the system.</i><br>
+	<blockquote>
+	- Author<br>
+	- Editor<br>
+	- Client<br>
+	- Designer (layout)<br>
+	They all can be grouped by one actor called User.<br>
+	</blockquote>
+
+	•<b> Support actors:</b> <i>Contacted by the system.</i><br>
+	<blockquote>
+	- Creative Commons License<br>
+	- Sales Person<br>
+	- Website<br>
+	</blockquote>
+
+	•<b> Use Cases and a table of relations:</b><br><br>
+	<table id="t01">
+	  <tr>
+	    <th>Use Cases</th>
+	    <th>Primary Actors</th> 
+	    <th>Support Actors</th>
+	  </tr>
+	  <tr>
+	    <td>Purchase a book</td>
+	    <td>Client</td>
+	    <td>Creative Commons License<br>Website<br>Sales Person<br></td>
+	  </tr>
+	  <tr>
+	    <td>Publish a book</td>
+	    <td>Editor<br>Author</td>
+	    <td>Creative Commons License<br>Website<br></td>
+	  </tr>
+	  <tr>
+	    <td>Edit a book</td>
+	    <td>Designer<br>Editor<br>Author</td>
+	    <td>Creative Commons License<br>Website<br></td>
+	  </tr>
+	  <tr>
+	    <td>Unlist a book</td>
+	    <td>Editor<br>Author</td>
+	    <td>Creative Commons License<br></td>
+	  </tr>
+	  <tr>
+	    <td>Search a book</td>
+	    <td>User</td>
+	    <td>Website<br></td>
+	  </tr>
+	  <tr>
+	    <td>Validate uploaded work</td>
+	    <td>Editor</td>
+	    <td>Creative Commons License<br>Website<br></td>
+	  </tr>
+	  <tr>
+	    <td>Rate a work</td>
+	    <td>Client</td>
+	    <td>Website<br></td>
+	  </tr>
+	  <tr>
+	    <td>Send a donation to an author</td>
+	    <td>Client</td>
+	    <td>Website</td>
+	  </tr>
+	  <tr>
+	    <td>Validate a user</td>
+	    <td>User</td>
+	    <td>Website</td>
+	  </tr>
+	</table>
+	<br>
+	</blockquote>
+
+<!--TASCA 4-->
+<b><u>Task 4:</u></b> <i>Use Case diagrams.</i><br>
+	<blockquote>
+	We have done the diagram for the <i>Purchase a Book</i> Use Case. To do this, we have used only the primary actors (the blue little persons) and the use cases (the blue ellipses) that are directly related with our use case.<br>
+	</blockquote>
+	<div ALIGN=center><img src = "img/usecase.png"></div><br><br>
+
+<!--TASCA 5-->
+<b><u>Task 5:</u></b> <i>Updating the glossary.</i><br>
+	<blockquote>
+	Updated in <a href="s1.html">SEMINARI 1</a>.
+	</blockquote><br>
+
+<!--TASCA 6-->
+<b><u>Task 6:</u></b> <i>Updating the obscure points.</i><br>
+	<blockquote>
+	Updated in <a href="s1.html">SEMINARI 1</a>.
+	</blockquote><br>
+
+<!--AQUÍ ACABA EL TEXT-->
+      </p>
+     </div>
+    </div>
+<br><ul id="button"><li><a href="javascript:history.back(-1);">Tornar a l'Índex!</a></li></ul><br><br>
+</div>
+
+<style>
+#button li {
+  display: inline;
+}
+
+#button li a, #button1 li a:focus {
+  background-color: #F5DA81;
+  border: 1px solid #DBA901;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  text-decoration: none;
+  color: #000;
+  font-family: Verdana,Arial,Helvetica;
+  font-size: 12px;
+  font-weight:bold;
+  padding: 15px;
+  margin: 5px;
+}
+
+#button li a:hover {
+  background-color: #FAAC58;
+  border-color: #DBA901;
+  color: #000;
+}
+
+.text{
+  border: 1px solid #DBA901;
+  background-color: #F5DA81;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  width:800px;
+  text-align: justify; 
+  padding-left:20px;
+  padding-right:20px;
+  font-family: Verdana,Arial,Helvetica;
+}
+
+table {
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #A9F5A9;
+}
+
+table#t01 tr:nth-child(odd) {
+   background-color: #D8F6CE;
+}
+
+table#t01 th {
+    background-color: #01DF74;
+}
+
+</style> 
+
+</html>

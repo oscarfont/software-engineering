@@ -1,0 +1,27 @@
+Lab 1:
+- Contenido del mail incorrecto
+- El fichero answers.txt debería estar en doc/
+- Los ficheros de programación deberían estar en la carpeta tutorial
+- Falta fichero enclosure.hxx
+- Los commits son incorrectos (deben ponerse comentarios que los relacionen con la acción realizada)
+- El programa enclosure debería ser una clase con métodos para añadir y ver animales en vez de tener todo en el mismo archivo
+- Preguntas incompletas y/o con errores de GIT: Q7
+Lab 2:
+- Se podría haber hecho algun REFACTOR commit más; aparte se debe especificar la clase y test sobre la que se está haciendo
+- Los tests no se deberían modificar
+- Si hay código que no utilizamos, se debería hacer limpieza
+- No se hace uso del const, ni se pasan parámetros por referencia
+- Los warnings se deberían solucionar
+- Falta un test por pasar
+Lab 3:
+- Commits con formato incorrecto
+- El fichero de excepciones tiene un nombre incorrecto, y la clase podría tener mejor nombre que se asocie con su funcionalidad
+- Hay strings como parámetros de funciones que no tienen el const y no se pasan por referencia. Ej. "const string &s"
+- Hay bastantes warnings que se deben solucionar
+- Hay memory leaks que se deben solucionar
+Lab 4:
+- MeltingPotOnline tambien debería gestionar Collections
+- Se podría haber hecho algun REFACTOR más
+- MeltingPotOnline debería colgar de src/
+- MyException.hxx debería llamarse Exceptions.hxx
+- Bastantes parámetros complejos como string, no se pasan por referencia ni con el uso del const
