@@ -2,7 +2,7 @@
 
 Application developed with Lucía Gasión in our second year of Computer Science Degree at Universitat Pompeu Fabra.  
 Course name: Software Engineering.  
-Language: C++ and Qt for the GUI.
+Language: C++ and Qt for the GUI.  
 Objective:  Learn Software Engineering best practices to develop applications with object oriented programming.
 
 ## Description
